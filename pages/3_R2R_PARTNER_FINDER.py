@@ -659,7 +659,7 @@ with tab1:
 		The size of each box in the treemap represents the percentage of hazard mitigation efforts pledged for that particular hazard. The color of the boxes represents the percentage of total hazard mitigation efforts pledged by R2R Partners within that hazard group. The darker the color, the higher the percentage of total mitigation efforts pledged for that group.
 		To view more information about each box, simply hover your mouse over it. The tooltip will display the name of the hazard and the percentage of hazard mitigation efforts pledged for that particular hazard. The total number of R2R Partners reporting information related to hazards is displayed in the annotation at the bottom of the chart.
 		""")
-                st.markdown('**Note:** '+list_best3_hazards+" are the hazard groups where "+p_short_name+" aim to provide resilience the most.")
+	st.markdown('**Note:** '+list_best3_hazards+" are the hazard groups where "+p_short_name+" aim to provide resilience the most.")
 
 
 
