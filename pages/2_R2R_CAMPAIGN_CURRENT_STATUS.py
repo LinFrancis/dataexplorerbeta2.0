@@ -61,21 +61,10 @@ def load_data_cleaned_df_plan():
     from Data_cleaning import df_plan
     return df_plan
 
-@st.cache_data
-def load_data_Definiciones_RA():
-    df_ra_def = pd.read_csv('Definiciones_RA.csv',sep=';')
-    return df_ra_def
-
-@st.cache_data
-def  load_data_Definiciones_sub_RA_CSV():
-    df_sub_ra_def = pd.read_csv('Definiciones_sub_RA_CSV.csv',sep=';')
-    return df_sub_ra_def
 
 df = load_data_cleaned_df()
 df_len = load_data_cleaned_df_len()
 df_plan = load_data_cleaned_df_plan()
-df_ra_def = load_data_Definiciones_RA()
-df_sub_ra_def = load_data_Definiciones_sub_RA_CSV()
 
 
 
