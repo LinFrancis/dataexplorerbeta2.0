@@ -46,27 +46,27 @@ st.markdown(hide_table_row_index, unsafe_allow_html=True)
 #__________________________________________________________________________________________________________________________________________________________________
 # Export data
 #__________________________________________________________________________________________________________________________________________________________________
-@st.cache_data
+@st.cache()
 def load_data_cleaned_df():
     from Data_cleaning import df
     return df
 
-@st.cache_data
+@st.cache()
 def load_data_cleaned_df_len():
     from Data_cleaning import df_len
     return df_len
 
-@st.cache_data
+@st.cache()
 def load_data_cleaned_df_plan():
     from Data_cleaning import df_plan
     return df_plan
 
-@st.cache_data
+@st.cache()
 def load_data_Definiciones_RA():
     df_ra_def = pd.read_csv('Definiciones_RA.csv',sep=';')
     return df_ra_def
 
-@st.cache_data
+@st.cache()
 def  load_data_Definiciones_sub_RA_CSV():
     df_sub_ra_def = pd.read_csv('Definiciones_sub_RA_CSV.csv',sep=';')
     return df_sub_ra_def
@@ -200,7 +200,7 @@ df2.rename(columns = {'index':'Country'}, inplace = True)
 df2['% country'] = ((df2['Frecuency']/df2['Frecuency'].sum())*100)
 
 #Making dataset 
-@st.cache_data
+@st.cache()
 def get_country_data():
     df_country = pd.read_csv('countries_geoinfo.csv',sep=';')
     return df_country
@@ -320,7 +320,7 @@ list_less_2_region = replace_last(list_best3, ',', ' & ')
 ##https://realpython.com/python-folium-web-maps-from-data/
 #___________________________________________
 
-@st.cache_data
+@st.cache()
 def load_countries():
     political_countries_url = "http://geojson.xyz/naturalearth-3.3.0/ne_50m_admin_0_countries.geojson"
     return political_countries_url
