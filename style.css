@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,900&display=swap');
+
+
+ /* configuration of general font type */
+html, body, [class*="css"] {
+    font-family: 'Montserrat', 'Helvetica', 'Arial', 'sans-serif';
+  } 
+
+.body{font-family: 'Montserrat', 'Helvetica', 'Arial', 'sans-serif';
+  line-height: 1.6;}
+
+  p {
+    font-size: 16px; 
+    line-height: 1.5; /* set the line height */
+    text-align: justify; /* set the text alignment */
+  }
+
+  h1 {
+    font-size: 50px;
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    color: #FF37D5;
+    margin-top:0px;
+    font-weight:900 ;  
+  }
+  
+  h2 {
+    font-size: 30px;
+    color: #FF37D5;
+    margin-top: 50px;
+    font-weight: bold;
+  }
+  
+  h3 {
+    font-size: 24px;
+    color: #FF37D5;
+    margin-top: 40px;
+    font-weight: bold;
+  }
+  
+  h4 {
+    font-size: 18px;
+    /* color: #112E4D; */
+    margin-top: 30px;
+    font-weight: bold;
+  }
+  
+  h5 {
+    font-size: 16px;
+    /* color: #112E4D; */
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  h6 {
+    font-size: 14px;
+    /* color: #112E4D; */
+    margin-top: 10px;
+    font-weight: bold;
+  }
+
+/* logo */
+[data-testid="stSidebarNav"] {
+  background-image: url(https://raw.githubusercontent.com/LinFrancis/datatest/main/R2R_RGB_PINK_BLUE.png);
+  background-repeat: no-repeat;
+  background-size: 300px;
+  padding-top: 1px;
+  padding-left: 2px;
+  background-position: 2px 2px;}
+
+/* Expander Text  */
+
+[data-testid="stMarkdownContainer"]{
+  color:#DCE3E5;
+  } 
+
+.st-bt{
+  color:#FF37D5;
+  } 
+
+/* Here down on, to review */
+
+
+/* Styling bottom */
+.css-wu5w3k-d7,.css-87mhkc, .e1wqxbhn2,.st-by {
+color: #FF37D5;
+  /* background-color: #FF37D5; */
+} 
+
+/* styling sidebar nav */
+.css-16n7uwt,.css-4h35f8,.css-rdwul2 {
+  color: #112E4D;
+  /* font-size: 12px; */
+}
+.css-uc76bn {
+  padding-top: 6rem;
+}
+.css-8ojfln {
+  font-size: 14px;
+}
+
+.st-af {
+  font-size: 0,1rem;
+}
+
+/* Hidden sections */
+.#MainMenu,.footer {visibility: hidden;}
+
+/* Search Bottom */
+.css-w7qeld {
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  font-weight: 400;
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.25rem;
+  margin: 0px;
+  line-height: 1.6;
+  color: #DCE3E5  ;
+  width: auto;
+  user-select: none;
+  background-color:  #FF37D5 ;
+  border: 1px solid  #112E4D
+
+}
+
+/* #Text Sidebar */
+.css-qzjldv {
+  margin-bottom: -2rem;
+  color: #FF37D5 ;
+  font-weight: 900;
+  font-size: 14px;
+}
+
+/* name of search boxes */
+
+.css-15frkbh {
+  font-size: 14px;
+  color: rgb(220, 227, 229);
+  display: flex;
+  visibility: visible;
+  margin-bottom: 0rem;
+  height: auto;
+  min-height: 1.5rem;
+  vertical-align: middle;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+
+/* row widget */
+.row-widget{
+  width: 400px;
+}
+
+.st-c9 {
+  min-height:min-content;
+  font-size: small;
+}
+
+.st-af {
+  font-size: 0,5rem;
+  font-size: small;
+}
+
+.st-ae {
+  font-family: 'Montserrat', 'Helvetica', 'Arial', 'sans-serif';
+  font-size: small;
+}
+
+.st-f4 {
+  max-width: none;
+}
+
+.css-18aw6v4 {
+  border: 1px solid rgba(220, 227, 229, 0.2);
+  border-radius: 0.25rem;
+  padding:0%;
+}
+
+/* insidebotton in main page */
+/* .st-e8 {
+  background-color: #FF37D5);
+} */
+
+.row-widget {
+  color:#FF37D5;
+}
+
+.st-ae {
+  font-family: 'Montserrat', 'Helvetica', 'Arial', 'sans-serif';
+  font-size: small;
+  color: #112E4D;
+}
+
+
+/* .st-dq {
+  background-color: #112E4D;
+}
+
+.st-cl {
+  background-color: #112E4D);
+} */
+
+
+/* 
+.css-8ojfln,.st-ck st-cr st-d7 st-d8 st-d9 st-b3 st-c5 st-da st-ce st-db st-dc st-dd st-de {
+  color:#FF37D5;
+}
+ */
+
+/* st-df st-ck st-dg st-dh st-di st-ce st-dj st-dk st-dl */
+

@@ -1,0 +1,174 @@
+﻿Country;cn_code;conti_code;lat;lon;mayor_area;Region;Development region
+Afghanistan;AF;Asia;337.680.065;662.385.139;Asia;Southern Asia;Less developed regions
+Albania;AL;Europe;332.588.817;-868.295.337;Europe;Southern Europe;More developed regions
+Algeria;DZ;Africa;280.000.272;29.999.825;Africa;Northern Africa;Less developed regions
+Andorra;AD;Europe;425.407.167;15.732.033;Europe;Southern Europe;More developed regions
+Angola;AO;Africa;4.759.397;1.412.456;Africa;Middle Africa;Less developed regions
+Antigua and Barbuda;AG;North America;172.234.721;-619.554.608;Latin America and the Caribbean;Caribbean;Less developed regions
+Argentina;AR;South America;-349.964.963;-649.672.817;Latin America and the Caribbean;South America;Less developed regions
+Armenia;AM;Asia;407.696.272;446.736.646;Asia;Western Asia;Less developed regions
+Australia;AU;Oceania;-247.761.086;134.755;Oceania;Australia and New Zealand;More developed regions
+Austria;AT;Europe;4.759.397;1.412.456;Europe;Western Europe;More developed regions
+Azerbaijan;AZ;Asia;403.936.294;477.872.508;Asia;Western Asia;Less developed regions
+Bahamas;BS;North America;247.736.546;-780.000.547;Latin America and the Caribbean;Caribbean;Less developed regions
+Bangladesh;BD;Asia;244.769.288;902.934.413;Asia;Southern Asia;Less developed regions
+Barbados;BB;North America;131.500.331;-595.250.305;Latin America and the Caribbean;Caribbean;Less developed regions
+Belarus;BY;Europe;534.250.605;276.971.358;Europe;Eastern Europe;More developed regions
+Belgium;BE;Europe;506.402.809;46.667.145;Europe;Western Europe;More developed regions
+Belize;BZ;North America;168.259.793;-887.600.927;Latin America and the Caribbean;Central America;Less developed regions
+Benin;BJ;Africa;95.293.472;22.584.408;Africa;Western Africa;Less developed regions
+Bhutan;BT;Asia;27.549.511;905.119.273;Asia;Southern Asia;Less developed regions
+Bolivia, Plurinational State of;BO;South America;-170.568.696;-649.912.286;Latin America and the Caribbean;South America;Less developed regions
+Bosnia and Herzegovina;BA;Europe;443.053.476;175.961.467;Europe;Southern Europe;More developed regions
+Botswana;BW;Africa;4.853.775;9.041.169;Africa;Southern Africa;Less developed regions
+Brazil;BR;South America;-103.333.333; -53.2;Latin America and the Caribbean;South America;Less developed regions
+Bulgaria;BG;Europe;426.073.975;254.856.617;Europe;Eastern Europe;More developed regions
+Burkina Faso;BF;Africa;120.753.083;-16.880.314;Africa;Western Africa;Less developed regions
+Burundi;BI;Africa;506.402.809;46.667.145;Africa;Eastern Africa;Less developed regions
+Cambodia;KH;Asia;125.433.216;1.048.144.914;Asia;South-Eastern Asia;Less developed regions
+Cameroon;CM;Africa;46.125.522;131.535.811;Africa;Middle Africa;Less developed regions
+Canada;CA;North America;610.666.922;-107.991.707;Northern America;Northern America;More developed regions
+Cape Verde;CV;Africa;160.000.552;-240.083.947;Africa;Western Africa;Less developed regions
+Central African Republic;CF;Africa;70.323.598;199.981.227;Africa;Middle Africa;Less developed regions
+Chad;TD;Africa;156.134.137;190.156.172;Africa;Middle Africa;Less developed regions
+Chile;CL;South America;-317.613.365;-713.187.697;Latin America and the Caribbean;South America;Less developed regions
+China;CN;Asia;35.000.074;104.999.927;Asia;Eastern Asia;Less developed regions
+Colombia;CO;South America;4.099.917;-729.088.133;Latin America and the Caribbean;South America;Less developed regions
+Comoros;KM;Africa;-122.045.176;442.832.964;Africa;Eastern Africa;Less developed regions
+Congo, Republic of;CG;Africa;-0.7264327;156.419.155;Africa;Middle Africa;Less developed regions
+Costa Rica;CR;North America;4.522.086.405;10.037.037.979.628.800;Latin America and the Caribbean;Central America;Less developed regions
+Croatia;HR;Europe;453.658.443;156.575.209;Europe;Southern Europe;More developed regions
+Cuba;CU;North America;230.131.338;-808.328.748;Latin America and the Caribbean;Caribbean;Less developed regions
+Czech Republic;CZ;Europe;497.439.047;153.381.061;Europe;Eastern Europe;More developed regions
+Ivory Coast;CI;Africa;79.897.371;-55.679.458;Africa;Western Africa;Less developed regions
+Denmark;DK;Europe;55.670.249;103.333.283;Europe;Northern Europe;More developed regions
+Djibouti;DJ;Africa;118.145.966;428.453.061;Africa;Eastern Africa;Less developed regions
+Dominica;DM;North America;154.113.138;-613.653.618;Latin America and the Caribbean;Caribbean;Less developed regions
+Dominican Republic;DO;North America;190.974.031;-703.028.026;Latin America and the Caribbean;Caribbean;Less developed regions
+Ecuador;EC;South America;-13.397.668;-793.666.965;Latin America and the Caribbean;South America;Less developed regions
+Egypt;EG;Africa;262.540.493;292.675.469;Africa;Northern Africa;Less developed regions
+El Salvador;SV;North America;138.000.382;-889.140.683;Latin America and the Caribbean;Central America;Less developed regions
+Equatorial Guinea;GQ;Africa;1.613.172;105.170.357;Africa;Middle Africa;Less developed regions
+Eritrea;ER;Africa;52.865.196;-79.794.599;Africa;Eastern Africa;Less developed regions
+Estonia;EE;Europe;587.523.778;253.319.078;Europe;Northern Europe;More developed regions
+Ethiopia;ET;Africa;102.116.702;386.521.203;Africa;Eastern Africa;Less developed regions
+Finland;FI;Europe;632.467.777;259.209.164;Europe;Northern Europe;More developed regions
+France;FR;Europe;46.603.354;18.883.335;Europe;Western Europe;More developed regions
+Gabon;GA;Africa;-0.8999695;116.899.699;Africa;Middle Africa;Less developed regions
+Gambia;GM;Africa;13.470.062;-154.900.464;Africa;Western Africa;Less developed regions
+Georgia;GE;Asia;416.809.707;440.287.382;Asia;Western Asia;Less developed regions
+Germany;DE;Europe;511.638.175;104.478.313;Europe;Western Europe;More developed regions
+Ghana;GH;Africa;80.300.284;-10.800.271;Africa;Western Africa;Less developed regions
+Greece;GR;Europe;382.749.497;238.102.717;Europe;Southern Europe;More developed regions
+Grenada;GD;North America;121.360.374;-616.904.045;Latin America and the Caribbean;Caribbean;Less developed regions
+Guatemala;GT;North America;155.855.545;-90.345.759;Latin America and the Caribbean;Central America;Less developed regions
+Guinea;GN;Africa;80.300.284;-10.800.271;Africa;Western Africa;Less developed regions
+Guinea-Bissau;GW;Africa;11.815.215;-152.351.044;Africa;Western Africa;Less developed regions
+Guyana;GY;South America;48.417.097;-586.416.891;Latin America and the Caribbean;South America;Less developed regions
+Haiti;HT;North America;191.399.952;-723.570.972;Latin America and the Caribbean;Caribbean;Less developed regions
+Honduras;HN;North America;152.572.432;-860.755.145;Latin America and the Caribbean;Central America;Less developed regions
+Hungary;HU;Europe;471.817.585;195.060.937;Europe;Eastern Europe;More developed regions
+Iceland;IS;Europe;649.841.821;-181.059.013;Europe;Northern Europe;More developed regions
+India;IN;Asia;223.511.148;786.677.428;Asia;Southern Asia;Less developed regions
+Indonesia;ID;Asia;-24.833.826;1.178.902.853;Asia;South-Eastern Asia;Less developed regions
+Iran, Islamic Republic of;IR;Asia;326.475.314;545.643.516;Asia;Southern Asia;Less developed regions
+Iraq;IQ;Asia;330.955.793;441.749.775;Asia;Western Asia;Less developed regions
+Ireland;IE;Europe;52.865.196;-79.794.599;Europe;Northern Europe;More developed regions
+Israel;IL;Asia;400.796.606;-894.337.288;Asia;Western Asia;Less developed regions
+Italy;IT;Europe;426.384.261;12.674.297;Europe;Southern Europe;More developed regions
+Jamaica;JM;North America;181.850.507;-773.947.693;Latin America and the Caribbean;Caribbean;Less developed regions
+Jordan;JO;Asia;311.667.049;36.941.628;Asia;Western Asia;Less developed regions
+Kazakhstan;KZ;Asia;481.012.954;667.780.818;Asia;Central Asia;Less developed regions
+Kenya;KE;Africa;14.419.683;384.313.975;Africa;Eastern Africa;Less developed regions
+Korea, Republic of;KR;Asia;36.638.392;1.276.961.188;Asia;Eastern Asia;Less developed regions
+Kyrgyzstan;KG;Asia;415.089.324;74.724.091;Asia;Central Asia;Less developed regions
+Lao People's Democratic Republic;LA;Asia;340.536.909;-118.242.766;Asia;South-Eastern Asia;Less developed regions
+Latvia;LV;Europe;568.406.494;247.537.645;Europe;Northern Europe;More developed regions
+Lebanon;LB;Asia;338.750.629;35.843.409;Asia;Western Asia;Less developed regions
+Lesotho;LS;Africa;200.171.109;103.378.253;Africa;Southern Africa;Less developed regions
+Liberia;LR;Africa;57.499.721;-93.658.524;Africa;Western Africa;Less developed regions
+Libya;LY;Africa;268.234.472;181.236.723;Africa;Northern Africa;Less developed regions
+Liechtenstein;LI;Europe;471.416.307;95.531.527;Europe;Western Europe;More developed regions
+Lithuania;LT;Europe;553.500.003;237.499.997;Europe;Northern Europe;More developed regions
+Luxembourg;LU;Europe;510.012.996;227.748.497;Europe;Western Europe;More developed regions
+Macedonia, The Former Yugoslav Republic Of;MK;Europe;416.171.214;217.168.387;Europe;Southern Europe;More developed regions
+Madagascar;MG;Africa;-189.249.604;464.416.422;Africa;Eastern Africa;Less developed regions
+Malawi;MW;Africa;-132.687.204;339.301.963;Africa;Eastern Africa;Less developed regions
+Malaysia;MY;Asia;397.837.304;-100.445.882;Asia;South-Eastern Asia;Less developed regions
+Mali;ML;Africa;163.700.359;-22.900.239;Africa;Western Africa;Less developed regions
+Malta;MT;Europe;358.885.993;144.476.911;Europe;Southern Europe;More developed regions
+Mauritania;MR;Africa;202.540.382;-92.399.263;Africa;Western Africa;Less developed regions
+Mauritius;MU;Africa;-202.759.451;575.703.566;Africa;Eastern Africa;Less developed regions
+Mexico;MX;North America;236.585.116;-1.020.077.097;Latin America and the Caribbean;Central America;Less developed regions
+Micronesia, Federated States of;FM;Oceania;430.922.489;13.638.768.067.263.700;Oceania;Micronesia;Less developed regions
+Moldova, Republic of;MD;Europe;395.162.401;-769.382.069;Europe;Eastern Europe;More developed regions
+Mongolia;MN;Asia;459.896.587;-946.113.288;Asia;Eastern Asia;Less developed regions
+Montenegro;ME;Europe;236.585.116;-1.020.077.097;Europe;Southern Europe;More developed regions
+Morocco;MA;Africa;311.728.205;-73.362.482;Africa;Northern Africa;Less developed regions
+Mozambique;MZ;Africa;-19.302.233;349.144.977;Africa;Eastern Africa;Less developed regions
+Myanmar;MM;Asia;171.750.495;959.999.652;Asia;South-Eastern Asia;Less developed regions
+Namibia;NAN;Africa;-232.335.499;173.231.107;Africa;Southern Africa;Less developed regions
+Nepal;NP;Asia;281.083.929;840.917.139;Asia;Southern Asia;Less developed regions
+Netherlands;NL;Europe;5.224.764.975;5.541.246.849.406.160;Europe;Western Europe;More developed regions
+New Zealand;NZ;Oceania;-415.000.831;1.728.344.077;Oceania;Australia and New Zealand;More developed regions
+Nicaragua;NI;North America;545.859.836;-69.591.554;Latin America and the Caribbean;Central America;Less developed regions
+Niger;NE;Africa;35.000.074;104.999.927;Africa;Western Africa;Less developed regions
+Nigeria;NG;Africa;96.000.359;79.999.721;Africa;Western Africa;Less developed regions
+North Korea;KP;Asia;403.736.611;1.270.870.417;Asia;Eastern Asia;Less developed regions
+Norway;NO;Europe;611.529.386;87.876.653;Europe;Northern Europe;More developed regions
+Pakistan;PK;Asia;303.308.401;71.247.499;Asia;Southern Asia;Less developed regions
+Palestine;PS;Asia;340.346.534;-50.161.926;Asia;Western Asia;Less developed regions
+Panama;PA;North America;8.559.559;-811.308.434;Latin America and the Caribbean;Central America;Less developed regions
+Papua New Guinea;PG;Oceania;-56.816.069;1.442.489.081;Oceania;Melanesia;Less developed regions
+Paraguay;PY;South America;-233.165.935;-581.693.445;Latin America and the Caribbean;South America;Less developed regions
+Peru;PE;South America;-68.699.697;-750.458.515;Latin America and the Caribbean;South America;Less developed regions
+Philippines;PH;Asia;127.503.486;1.227.312.101;Asia;South-Eastern Asia;Less developed regions
+Poland;PL;Europe;52.215.933;19.134.422;Europe;Eastern Europe;More developed regions
+Portugal;PT;Europe;396.621.648;-81.353.519;Europe;Southern Europe;More developed regions
+Puerto Rico;PR;North America;500.874.654;144.212.535;Latin America and the Caribbean;Caribbean;Less developed regions
+Romania;RO;Europe;459.852.129;246.859.225;Europe;Eastern Europe;More developed regions
+Rwanda;RW;Africa;-19.646.631;300.644.358;Africa;Eastern Africa;Less developed regions
+Saint Vincent and the Grenadines;VC;North America;396.819.591; -0.7654406;Latin America and the Caribbean;Caribbean;Less developed regions
+Samoa;WS;Oceania;-137.693.895;-17.212.005;Oceania;Polynesia;Less developed regions
+Sao Tome and Principe;ST;Africa;500.601.579;1.383.074.794.209.990;Africa;Middle Africa;Less developed regions
+Saudi Arabia;SA;Asia;256.242.618;423.528.328;Asia;Western Asia;Less developed regions
+Senegal;SN;Africa;144.750.607;-144.529.612;Africa;Western Africa;Less developed regions
+Serbia;RS;Europe;441.534.121;2.055.144;Europe;Southern Europe;More developed regions
+Sierra Leone;SL;Africa;86.400.349;-118.400.269;Africa;Western Africa;Less developed regions
+Slovakia;SK;Europe;487.411.522;194.528.646;Europe;Eastern Europe;More developed regions
+Slovenia;SI;Europe;461.199.444;148.153.333;Europe;Southern Europe;More developed regions
+Solomon Islands;SB;Oceania;441.534.121;2.055.144;Oceania;Melanesia;Less developed regions
+Somalia;SO;Africa;83.676.771;49.083.416;Africa;Eastern Africa;Less developed regions
+South Africa;ZA;Africa;-288.166.236;24.991.639;Africa;Southern Africa;Less developed regions
+South Sudan;SS;Africa;78.699.431;296.667.897;Africa;Northern Africa;Less developed regions
+Spain;ES;Europe;393.260.685;-48.379.791;Europe;Southern Europe;More developed regions
+Sri Lanka;LK;Asia;75.554.942;807.137.847;Asia;Southern Asia;Less developed regions
+Sudan;SD;Africa;145.844.444;294.917.691;Africa;Northern Africa;Less developed regions
+Suriname;SR;South America;41.413.025;-560.771.187;Latin America and the Caribbean;South America;Less developed regions
+Swaziland;SZ;Africa;-265.624.806;313.991.317;Africa;Southern Africa;Less developed regions
+Sweden;SE;Europe;596.749.712;145.208.584;Europe;Northern Europe;More developed regions
+Switzerland;CH;Europe;467.985.624;82.319.736;Europe;Western Europe;More developed regions
+Syrian Arab Republic;SY;Asia;346.401.861;390.494.106;Asia;Western Asia;Less developed regions
+Tajikistan;TJ;Asia;386.281.733;708.156.541;Asia;Central Asia;Less developed regions
+Tanzania, United Republic of;TZ;Africa;-65.247.123;357.878.438;Africa;Eastern Africa;Less developed regions
+Thailand;TH;Asia;509.014.721;110.377.839;Asia;South-Eastern Asia;Less developed regions
+East Timor;TL;Unknown;-87.443.169;126.063.482;Asia;South-Eastern Asia;Less developed regions
+Togo;TG;Africa;87.800.265;10.199.765;Africa;Western Africa;Less developed regions
+Tonga;TO;Oceania;-199.160.819;-175.202.642;Oceania;Polynesia;Less developed regions
+Trinidad and Tobago;TT;North America;107.466.905;-610.840.075;Latin America and the Caribbean;Caribbean;Less developed regions
+Tunisia;TN;Africa;338.439.408;9.400.138;Africa;Northern Africa;Less developed regions
+Turkey;TR;Asia;389.597.594;349.249.653;Asia;Western Asia;Less developed regions
+Turkmenistan;TM;Asia;393.763.807;593.924.609;Asia;Central Asia;Less developed regions
+Uganda;UG;Africa;15.333.554;322.166.578;Africa;Eastern Africa;Less developed regions
+Ukraine;UA;Europe;494.871.968;312.718.321;Europe;Eastern Europe;More developed regions
+United Arab Emirates;AE;Asia;240.002.488;539.994.829;Asia;Western Asia;Less developed regions
+United Kingdom;GB;Europe;547.023.545;-32.765.753;Europe;Northern Europe;More developed regions
+United States;US;North America;397.837.304;-100.445.882;Northern America;Northern America;More developed regions
+Uruguay;UY;South America;-328.755.548;-560.201.525;Latin America and the Caribbean;South America;Less developed regions
+Uzbekistan;UZ;Asia;4.132.373;639.528.098;Asia;Central Asia;Less developed regions
+Vanuatu;VU;Oceania;-165.255.069;1.681.069.154;Oceania;Melanesia;Less developed regions
+Venezuela, Bolivarian Republic of;VE;South America;80.018.709;-661.109.318;Latin America and the Caribbean;South America;Less developed regions
+Viet Nam;VN;Asia;159.266.657;1.079.650.855;Asia;South-Eastern Asia;Less developed regions
+Yemen;YE;Asia;163.471.243;478.915.271;Asia;Western Asia;Less developed regions
+Zambia;ZM;Africa;-145.189.121;275.589.884;Africa;Eastern Africa;Less developed regions
+Zimbabwe;ZW;Africa;-184.554.963;297.468.414;Africa;Eastern Africa;Less developed regions
