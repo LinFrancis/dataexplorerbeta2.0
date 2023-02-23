@@ -496,19 +496,17 @@ else:
     st.markdown("**Note:** The top 10% of countries with the highest presence of "+p_short_name+" actions pledged are "+list_best_5_per+". ")
     st.markdown("By continent, "+p_short_name+" actions pledged are most prevalent in "+list_best3_conti+".")
     st.markdown("Looking at regions, the graph above shows that "+p_short_name+"' actions pledged are most prominent in "+list_best3_region+".")
-        
-
 #___________________________________________
 # TREEMAP
 #___________________________________________
-fig_treemap = px.treemap(df2, path=[px.Constant("World"),'mayor_area','Region','cn_code'], values = '% country', color='% Mayor Area', color_continuous_scale='RdPu')
-fig_treemap.update_traces(root_color="#FF37D5")
-fig_treemap.update_layout(title_text=p_short_name+' - Resilience Action Pledged by Country, Region, and Continent')
-fig_treemap.update_layout(margin = dict(t=50, l=25, r=25, b=25))
-fig_treemap.add_annotation(x=1, y=0,
-                text='Source: R2R Pledge Attributes Survey.',showarrow=False,
-                yshift=-20)
-fig_treemap.data[0].hovertemplate = '%{value:.1f}%'
+    fig_treemap = px.treemap(df2, path=[px.Constant("World"),'mayor_area','Region','cn_code'], values = '% country', color='% Mayor Area', color_continuous_scale='RdPu')
+    fig_treemap.update_traces(root_color="#FF37D5")
+    fig_treemap.update_layout(title_text=p_short_name+' - Resilience Action Pledged by Country, Region, and Continent')
+    fig_treemap.update_layout(margin = dict(t=50, l=25, r=25, b=25))
+    fig_treemap.add_annotation(x=1, y=0,
+			text='Source: R2R Pledge Attributes Survey.',showarrow=False,
+			yshift=-20)
+    fig_treemap.data[0].hovertemplate = '%{value:.1f}%'
 
 with tab2:
     if n_countries == 0:
@@ -535,13 +533,16 @@ with tab2:
 #___________________________________________
 # SUNBURST
 #___________________________________________
-fig_sunburst = px.sunburst(data_frame = df2,path = ['mayor_area','Region', 'Country'],values = '% country')
-fig_sunburst.update_layout(title_text=p_short_name+' - Resilience Action Pledged by Country, Region, and Continent')
-fig_sunburst.update_layout(margin = dict(t=50, l=25, r=25, b=25))
-fig_sunburst.add_annotation(x=1, y=0,
-                text='Out of '+ sz +' R2R Partners (Source: R2R Pledge Statement Survey).',showarrow=False,
-                yshift=-20)
-fig_sunburst.data[0].hovertemplate = '%{value:.1f}%'
+if n_countries == 0:
+        st.write("")
+else:
+	fig_sunburst = px.sunburst(data_frame = df2,path = ['mayor_area','Region', 'Country'],values = '% country')
+	fig_sunburst.update_layout(title_text=p_short_name+' - Resilience Action Pledged by Country, Region, and Continent')
+	fig_sunburst.update_layout(margin = dict(t=50, l=25, r=25, b=25))
+	fig_sunburst.add_annotation(x=1, y=0,
+			text='Out of '+ sz +' R2R Partners (Source: R2R Pledge Statement Survey).',showarrow=False,
+			yshift=-20)
+	fig_sunburst.data[0].hovertemplate = '%{value:.1f}%'
 
 with tab3:
     if n_countries == 0:
