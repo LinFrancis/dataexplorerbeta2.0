@@ -625,14 +625,6 @@ else:
 			yshift=-20)
    fig.data[0].hovertemplate = '%{value:.1f}%'
 
-# _____________________
-# Note for hazards
-# ____________________
-
-# ___________________
-# gettin the highst 3 hazards and lowest 2
-# ________________
-
 s_df2 = df3.sort_values(by='% Hazards', ascending=False)
 s_df2_best3 = s_df2.head(3)
 list_best3 = s_df2_best3['group'].unique()
