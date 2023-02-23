@@ -615,15 +615,15 @@ df2 = df2.dropna()
 if n_hazards == 0:
    st.write("")
 else:
-   fig = px.treemap(df2, path=[px.Constant("Hazards"),'group','index'], values='% hazard', color='% Hazards', color_continuous_scale='RdPu')
-   fig.update_traces(root_color='#FF37D5')
-   fig.update_layout(title=p_short_name+' - Hazard Mitigation Efforts Pledged.', font=dict(size=16))
-   fig.update_layout(margin=dict(t=50, l=25, r=25, b=25))
-   fig.add_annotation(x=1, y=0,
+   fig_h = px.treemap(df2, path=[px.Constant("Hazards"),'group','index'], values='% hazard', color='% Hazards', color_continuous_scale='RdPu')
+   fig_h.update_traces(root_color='#FF37D5')
+   fig_h.update_layout(title=p_short_name+' - Hazard Mitigation Efforts Pledged.', font=dict(size=16))
+   fig_h.update_layout(margin=dict(t=50, l=25, r=25, b=25))
+   fig_h.add_annotation(x=1, y=0,
 			text='Source: R2R Pledge Attributes Survey',
 			showarrow=False,
 			yshift=-20)
-   fig.data[0].hovertemplate = '%{value:.1f}%'
+   fig_h.data[0].hovertemplate = '%{value:.1f}%'
 
 s_df2 = df3.sort_values(by='% Hazards', ascending=False)
 s_df2_best3 = s_df2.head(3)
@@ -653,7 +653,7 @@ with tab1:
     if n_countries == 0:
         st.write("At this time "+p_short_name+" has not provided any information on Hazards. However, we will update this page with any new information as it becomes available.")
     else:
-        st.plotly_chart(fig)
+        st.plotly_chart(fig_h)
         with st.expander("Navigating this treemap: A User's Guide"):
             st.write("""
             This chart displays the percentage of hazard mitigation efforts that R2R Partner have pledged to provide. The chart is structured as a treemap, with the main category of "Hazards" displayed at the top. Underneath that, you can see the different groups of climate hazards, such as heat, flooding, drought, fire, and cold. Finally, each individual hazard is displayed, such as extreme heat or flooding caused by heavy rainfall.
