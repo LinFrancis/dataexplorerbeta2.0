@@ -343,11 +343,12 @@ def replace_last(string, delimiter, replacement):
 list_best3 = replace_last(list_best3, ',', ' & ')
 
 # ________
-# gettion the 10% of countries top
+# gettion the top 5 of countries top
 # ______
 num_countries = len(df2['Frecuency'])
-top5_percent = int(np.ceil(num_countries * 0.1))
-s_df2_best3 = s_df2.head(top5_percent)
+#top5_percent = int(np.ceil(num_countries * 0.1))
+#s_df2_best3 = s_df2.head(top5_percent)
+s_df2_best3 = s_df2.head(5)
 list_best3 = s_df2_best3['Country'].unique()
 list_best3 =  ', '.join(list_best3)
 
@@ -493,7 +494,7 @@ with tab1:
 if n_countries == 0:
         st.write("")
 else:
-    st.markdown("**Note:** The top 10% of countries with the highest presence of "+p_short_name+" actions pledged are "+list_best_5_per+". ")
+    st.markdown("**Note:** The top 5 of countries with the highest presence of "+p_short_name+" actions pledged are "+list_best_5_per+". ")
     st.markdown("By continent, "+p_short_name+" actions pledged are most prevalent in "+list_best3_conti+".")
     st.markdown("Looking at regions, the graph above shows that "+p_short_name+"' actions pledged are most prominent in "+list_best3_region+".")
 #___________________________________________
