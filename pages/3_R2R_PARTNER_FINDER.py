@@ -587,6 +587,7 @@ df2 = df2.iloc[1:].sort_index().reset_index(name='Frecuency')  #Check what happe
 n_hazards = df2['Frecuency'].count()
 n_hazards_str = str(n_hazards)
 
+st.write(n_hazards)
 
 #creating new columms based in a dictionary
 heat_list     = {'Heat stress - lives & livelihoods combined':'Heat','Heat stress - livelihoods (work)':'Heat','Heat stress - lives':'Heat','Extreme heat':'Heat'}
@@ -612,17 +613,17 @@ df2 = pd.merge(df2, df3, on='group', how='left')
 df2 = df2.dropna()
 
 if n_hazards == 0:
-        st.write("")
+   st.write("")
 else:
-	fig = px.treemap(df2, path=[px.Constant("Hazards"),'group','index'], values='% hazard', color='% Hazards', color_continuous_scale='RdPu')
-	fig.update_traces(root_color='#FF37D5')
-	fig.update_layout(title=p_short_name+' - Hazard Mitigation Efforts Pledged.', font=dict(size=16))
-	fig.update_layout(margin=dict(t=50, l=25, r=25, b=25))
-	fig.add_annotation(x=1, y=0,
+   fig = px.treemap(df2, path=[px.Constant("Hazards"),'group','index'], values='% hazard', color='% Hazards', color_continuous_scale='RdPu')
+   fig.update_traces(root_color='#FF37D5')
+   fig.update_layout(title=p_short_name+' - Hazard Mitigation Efforts Pledged.', font=dict(size=16))
+   fig.update_layout(margin=dict(t=50, l=25, r=25, b=25))
+   fig.add_annotation(x=1, y=0,
 			text='Source: R2R Pledge Attributes Survey',
 			showarrow=False,
 			yshift=-20)
-	fig.data[0].hovertemplate = '%{value:.1f}%'
+   fig.data[0].hovertemplate = '%{value:.1f}%'
 
 # _____________________
 # Note for hazards
