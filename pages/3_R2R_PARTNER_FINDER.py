@@ -552,16 +552,16 @@ with tab3:
         st.markdown(p_short_name+" has provided information on **"+n_countries_str+"** countries where they have pledged to take resilience action.")    
         st.plotly_chart(fig_sunburst)
         with st.expander("Navigating this sunburst graph: A User's Guide"):
-            st.write("""
-        A sunburst graph is a type of data visualization that represents hierarchical data in a circular format. The outermost circle represents the highest level of the hierarchy, with each subsequent level represented by a smaller circle inside the previous one. The size of each segment in the sunburst corresponds to a specific category within the hierarchy, and its proportion of the overall data.
+            	st.write("""
+        	A sunburst graph is a type of data visualization that represents hierarchical data in a circular format. The outermost circle represents the highest level of the hierarchy, with each subsequent level represented by a smaller circle inside the previous one. The size of each segment in the sunburst corresponds to a specific category within the hierarchy, and its proportion of the overall data.
 
-        In this sunburst graph, the data is organized by continents, regions, and countries, and the size of each segment represents the frequency of countries where R2R Partners declare pledges to take resilience action.
+       		In this sunburst graph, the data is organized by continents, regions, and countries, and the size of each segment represents the frequency of countries where R2R Partners declare pledges to take resilience action.
 
-        To navigate the sunburst graph, simply click on a specific segment to zoom in and see more detailed information about the categories within it. For example, if you click on a segment representing a continent, you will zoom in to see the segments representing the regions within that continent. Similarly, if you click on a segment representing a region, you will zoom in to see the segments representing the countries within that region.
+       		To navigate the sunburst graph, simply click on a specific segment to zoom in and see more detailed information about the categories within it. For example, if you click on a segment representing a continent, you will zoom in to see the segments representing the regions within that continent. Similarly, if you click on a segment representing a region, you will zoom in to see the segments representing the countries within that region.
 
-        The interactivity features of the sunburst graph also allow you to hover over each segment to see more detailed information about the category it represents, such as its name, value, and percentage of the overall data. This helps you to quickly identify patterns and trends within the data and gain insights that might not be immediately apparent from a static graph.
+        	The interactivity features of the sunburst graph also allow you to hover over each segment to see more detailed information about the category it represents, such as its name, value, and percentage of the overall data. This helps you to quickly identify patterns and trends within the data and gain insights that might not be immediately apparent from a static graph.
 
-            """)
+           	""")
     
 
 # _________________________
