@@ -655,11 +655,11 @@ with tab1:
     else:
         st.plotly_chart(fig_h)
         with st.expander("Navigating this treemap: A User's Guide"):
+		st.markdown('**Note:** '+list_best3_hazards+" are the hazard groups where "+p_short_name+" aim to provide resilience the most.")
 	        st.write("""This chart displays the percentage of hazard mitigation efforts that R2R Partner have pledged to provide. The chart is structured as a treemap, with the main category of "Hazards" displayed at the top. Underneath that, you can see the different groups of climate hazards, such as heat, flooding, drought, fire, and cold. Finally, each individual hazard is displayed, such as extreme heat or flooding caused by heavy rainfall.
 		The size of each box in the treemap represents the percentage of hazard mitigation efforts pledged for that particular hazard. The color of the boxes represents the percentage of total hazard mitigation efforts pledged by R2R Partners within that hazard group. The darker the color, the higher the percentage of total mitigation efforts pledged for that group.
 		To view more information about each box, simply hover your mouse over it. The tooltip will display the name of the hazard and the percentage of hazard mitigation efforts pledged for that particular hazard. The total number of R2R Partners reporting information related to hazards is displayed in the annotation at the bottom of the chart.
 		""")
-	st.markdown('**Note:** '+list_best3_hazards+" are the hazard groups where "+p_short_name+" aim to provide resilience the most.")
 
 
 
