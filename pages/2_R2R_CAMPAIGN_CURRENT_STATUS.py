@@ -46,27 +46,27 @@ st.markdown(hide_table_row_index, unsafe_allow_html=True)
 #__________________________________________________________________________________________________________________________________________________________________
 # Export data
 #__________________________________________________________________________________________________________________________________________________________________
-@st.cache()
+@st.cache_data
 def load_data_cleaned_df():
     from Data_cleaning import df
     return df
 
-@st.cache()
+@st.cache_data
 def load_data_cleaned_df_len():
     from Data_cleaning import df_len
     return df_len
 
-@st.cache()
+@st.cache_data
 def load_data_cleaned_df_plan():
     from Data_cleaning import df_plan
     return df_plan
 
-@st.cache()
+@st.cache_data
 def load_data_Definiciones_RA():
     df_ra_def = pd.read_csv('Definiciones_RA.csv',sep=';')
     return df_ra_def
 
-@st.cache()
+@st.cache_data
 def  load_data_Definiciones_sub_RA_CSV():
     df_sub_ra_def = pd.read_csv('Definiciones_sub_RA_CSV.csv',sep=';')
     return df_sub_ra_def
@@ -200,7 +200,7 @@ df2.rename(columns = {'index':'Country'}, inplace = True)
 df2['% country'] = ((df2['Frecuency']/df2['Frecuency'].sum())*100)
 
 #Making dataset 
-@st.cache()
+@st.cache_data
 def get_country_data():
     df_country = pd.read_csv('countries_geoinfo.csv',sep=';')
     return df_country
@@ -320,7 +320,7 @@ list_less_2_region = replace_last(list_best3, ',', ' & ')
 ##https://realpython.com/python-folium-web-maps-from-data/
 #___________________________________________
 
-@st.cache()
+@st.cache_data
 def load_countries():
     political_countries_url = "http://geojson.xyz/naturalearth-3.3.0/ne_50m_admin_0_countries.geojson"
     return political_countries_url
@@ -743,10 +743,6 @@ Each rectangular bar on the chart represents one answer option and its length re
 
 
 
-
-
-
-
 # ____________________________________________________________________________________________________________________________________________________
 # QUALITATIVE 
 # ____________________________________________________________________________________________________________________________________________________
@@ -757,38 +753,6 @@ st.caption("QUALITATIVE / DEPTH METRICS")
 st.markdown("Depth of Resilience imply qualitative metrics to understand how partners and their members contribute to increasing the resilience of people vulnerable to climate change by observing which key conditions (seven Resilience Attributes) are impacted. ")
 
 
-# #________________________________________________________________________________________________________________________________
-# WORDCLOUD
-#________________________________________________________________________________________________________________________________
-#
-st.header('HOW R2R PARTNERS DESCRIBE THEIR INITIATIVE, ITS MAIN GOALS, AND HOW THEY EXPECT TO BUILD RESILIENCE?')
-
-text = ' '.join(df['q14'])
-st.set_option('deprecation.showPyplotGlobalUse', False)
-wordcloud = WordCloud(stopwords=STOPWORDS, background_color='white', width=800, height=640, colormap="RdPu").generate(text)
-
-# Create a new figure and add a title
-fig, ax = plt.subplots()
-ax.set_title('R2R PARTNERS SELF-DESCRIPTION - WORDCLOUD', fontsize=11, fontweight='light',color="#112E4D")
-ax.title.set_position([.5, 1.05]) # Adjust the position of the title
-
-# Display the wordcloud on the new figure
-ax.imshow(wordcloud)
-ax.set_xticks([])
-ax.set_yticks([])
-
-# Display the figure with Streamlit
-col1, col2, col3 = st.columns((1.8,0.6,0.6))
-col1.pyplot(fig)
-
-with st.expander("Description of Worldcloud"):
-    st.markdown("""
-    A wordcloud is a graphical representation of text data, in which the size of each word is proportional to its frequency or importance in the data. In other words, the more often a word appears in the text, the larger and bolder it appears in the wordcloud. 
-    
-    Wordclouds are often used to visualize the most frequently occurring words in a text dataset, providing a quick and easy way to identify the most common themes or topics within the data.
-    
-    In the context of the R2R Partners Self-Description, the wordcloud is a visual representation of the words used most frequently by R2R Partners to describe their initiative, goals, and strategies for building resilience. This allows viewers to quickly get a sense of the most important themes and ideas related to R2R Partners' work, without having to read through large amounts of text.
-    """)
 
 st.header("RESILIENCE ATTRIBUTES AND SUB-CATEGORIES")
 st.caption("Information from R2R Surveys until 2023/01/27")
@@ -989,3 +953,5 @@ st.sidebar.markdown("")
 st.sidebar.caption('READ FULL R2R’s METRICS FRAMEWORK [HERE](https://climatechampions.unfccc.int/wp-content/uploads/2022/11/Working-Paper-No-1_R2R%C2%B4s-Metrics-Framework_Oct2022-FOR_SLT.docx.pdf)')
 st.sidebar.markdown("")
 st.sidebar.caption('WATCH R2R’s METRICS FRAMEWORK INTRODUCTION VIDEO [HERE](https://www.youtube.com/watch?v=TZFp9_LL8qs)')
+
+
