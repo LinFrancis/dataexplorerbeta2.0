@@ -649,11 +649,6 @@ def replace_last(string, delimiter, replacement):
 #getting a string with the hazards
 list_less_2_hazards = replace_last(list_best3, ',', ' & ')
 
-with tab3:
-    if n_countries == 0:
-
-
-
 with tab1:
     if n_countries == 0:
 	st.write("At this time "+p_short_name+" has not provided any information on Hazards. However, we will update this page with any new information as it becomes available.")
