@@ -144,7 +144,7 @@ col2.metric("Total Nº of Partners reporting Pledge",df['g1'].count())
 col3.metric("Total Nº of Partners reporting Plan", int(n_total_n_Plan_sz))
 col1.metric("Total Nº of Plans reported", n_total_n_Plan,"(out of "+str(n_total_n_Plan_sz)+" partners)")
 col2.metric("Total Nº of Members Pledged", int(df['q26'].sum()),"(out of "+str(n_total_members_sz)+" partners)")##
-col3.metric("Countries in which they operate",175,"(*confirmation needed)")
+col3.metric("Countries in which they operate",173,"(out of 19 partners)")
 col1.metric("Total Nº Invididuals Pledged",numerize(int(df['g19'].sum())*0.75),"(out of "+str(n_individuals_sz)+" partners)")
 #col2.metric("Total Nº Companies Pledged",int(num_companies.sum()*0.75),"(out of "+str(n_individuals_sz)+" partners)")
 col2.metric("Total Nº Cities Pledged",int(df['g1675'].sum()*0.75),"(out of "+str(n_cities_sz)+" partners)") 
@@ -746,9 +746,7 @@ st.markdown("Depth of Resilience imply qualitative metrics to understand how par
 st.header("RESILIENCE ATTRIBUTES AND SUB-CATEGORIES")
 st.caption("Information from R2R Surveys until 2023/01/27")
 
-st.markdown("""‘Qualitative’ or ‘Depth’ metrics help understand how the partners and their members contribute to increasing the resilience of people vulnerable to climate change by observing which key conditions (seven Resilience Attributes) are making a change. 
-
-Resilience attributes act as an intermediary between the outcome of actions and increased resilience. The scientific literature acknowledges those Resilience Attributes to foster resilience or empower resilience-driving transformations.
+st.markdown("""Resilience attributes act as an intermediary between the outcome of actions and increased resilience. The scientific literature acknowledges those Resilience Attributes to foster resilience or empower resilience-driving transformations.
 
 These seven Resilience Attributes cover most of the aspects of resilience building for the initiatives across the three constituting dimensions of resilience (plan, cope and learn). They are operationalized through 19 subcategories that address different aspects of the definitions of their correspondent Resilience Attribute
 """)
