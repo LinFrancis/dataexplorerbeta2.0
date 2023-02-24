@@ -654,7 +654,7 @@ with tab1:
     if n_hazards == 0:
         st.write("At this time "+p_short_name+" has not provided any information on Hazards. However, we will update this page with any new information as it becomes available.")
     else:
-        st.plotly_chart(fig)
+        st.plotly_chart(fig_h)
         with st.expander("Navigating this treemap: A User's Guide"):
             st.write("""
             This chart displays the percentage of hazard mitigation efforts that R2R Partner have pledged to provide. The chart is structured as a treemap, with the main category of "Hazards" displayed at the top. Underneath that, you can see the different groups of climate hazards, such as heat, flooding, drought, fire, and cold. Finally, each individual hazard is displayed, such as extreme heat or flooding caused by heavy rainfall.
