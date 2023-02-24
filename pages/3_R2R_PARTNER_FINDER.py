@@ -651,7 +651,7 @@ list_less_2_hazards = replace_last(list_best3, ',', ' & ')
 
 
 with tab1:
-    if n_countries == 0:
+    if n_hazards == 0:
         st.write("At this time "+p_short_name+" has not provided any information on Hazards. However, we will update this page with any new information as it becomes available.")
     else:
         st.plotly_chart(fig)
